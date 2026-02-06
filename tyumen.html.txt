@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Проектирование дорог в Тюмени — ООО «НГПИ»</title>
+  <meta name="description" content="Проектирование автомобильных дорог в Тюмени и Тюменской области. ООО «НГПИ» (Нефтегазпромизыскания): ПД/РД, ОДД, сопровождение экспертизы, комплексные инженерные изыскания." />
+  <link rel="canonical" href="https://nik4842.github.io/site/tyumen.html" />
+  <style>
+    body{margin:0;font-family:Arial,system-ui;background:#0b1220;color:#e5e7eb}
+    .wrap{max-width:980px;margin:0 auto;padding:26px}
+    .card{background:#111827;border:1px solid #22304a;border-radius:18px;padding:22px}
+    h1{margin:0 0 10px;font-size:30px}
+    h2{margin:18px 0 8px;font-size:20px}
+    p{margin:0 0 10px;color:#cbd5f5;line-height:1.6}
+    ul{margin:8px 0 0;padding-left:18px}
+    li{margin:6px 0}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;background:#22c55e;color:#052e13;font-weight:900;text-decoration:none}
+    .muted{color:#9fb0c9}
+    .top{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:14px}
+    a{color:#a7f3d0}
+    .k{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+    .k > div{background:#0b1220;border:1px solid #22304a;border-radius:14px;padding:14px}
+    @media(max-width:820px){.k{grid-template-columns:1fr} h1{font-size:26px}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="muted">??? ООО «НГПИ» (Нефтегазпромизыскания) · Тюмень</div>
+      <div><a href="/site/">На главную</a></div>
+    </div>
+
+    <div class="card">
+      <h1>Проектирование автомобильных дорог в Тюмени</h1>
+      <p>
+        ООО «НГПИ» выполняет <b>проектирование автомобильных дорог</b> в Тюмени и Тюменской области:
+        от предпроектной проработки до выпуска <b>ПД/РД</b> и сопровождения экспертизы.
+        При необходимости выполняем <b>комплексные инженерные изыскания</b> под проект.
+      </p>
+
+      <div class="k">
+        <div><b>СРО</b><div class="muted">Допуск есть</div></div>
+        <div><b>Стадии</b><div class="muted">ТЭО • ПД • РД</div></div>
+        <div><b>Связь</b><div class="muted">+7-919-958-0858</div></div>
+      </div>
+
+      <h2>Что делаем</h2>
+      <ul>
+        <li>Трассирование, план/профиль, земляное полотно</li>
+        <li>ОДД и решения по безопасности движения</li>
+        <li>Разделы проектной документации, ведомости, спецификации</li>
+        <li>ПОС/ППР (при необходимости), увязка с сетями и пересечениями</li>
+        <li>Сопровождение экспертизы и авторское сопровождение</li>
+      </ul>
+
+      <h2>Инженерные изыскания под проект</h2>
+      <ul>
+        <li>Инженерно-геодезические</li>
+        <li>Инженерно-геологические</li>
+        <li>Инженерно-гидрометеорологические</li>
+        <li>Инженерно-экологические</li>
+      </ul>
+
+      <h2>Кому полезно</h2>
+      <p class="muted">
+        Заказчикам, подрядчикам, девелоперам, промышленным предприятиям и муниципальным заказчикам
+        при строительстве/реконструкции дорог, подъездных путей и транспортной инфраструктуры.
+      </p>
+
+      <h2>Запросить коммерческое предложение</h2>
+      <p class="muted">
+        Напишите исходные данные (объект/участок, протяжённость, стадия, сроки) — подготовим КП и график работ.
+      </p>
+      <a class="btn" href="tel:+79199580858">Позвонить: +7-919-958-0858</a>
+
+      <p class="muted" style="margin-top:14px;font-size:13px">
+        Ключевые запросы: проектирование дорог Тюмень, проект автодороги Тюмень, проектирование автомобильных дорог Тюменская область.
+      </p>
+    </div>
+
+    <p class="muted" style="margin-top:14px;font-size:13px">© <span id="y"></span> ООО «НГПИ»</p>
+  </div>
+
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
