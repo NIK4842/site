@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Услуги с ИИ — быстро и качественно</title>
+  <meta name="description" content="Сделаю тексты, резюме, карточки товаров, посты и презентации с помощью ИИ — быстро и аккуратно." />
+  <style>
+    :root { --bg:#0b0f17; --card:#111827; --text:#e5e7eb; --muted:#9ca3af; --acc:#22c55e; }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial; background:linear-gradient(180deg,#060912,#0b0f17); color:var(--text)}
+    a{color:inherit}
+    .wrap{max-width:980px;margin:0 auto;padding:24px}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0}
+    .logo{font-weight:800;letter-spacing:.3px}
+    .btn{display:inline-block;padding:12px 16px;border-radius:12px;background:var(--acc);color:#052e13;font-weight:700;text-decoration:none}
+    .btn.ghost{background:transparent;border:1px solid #263244;color:var(--text)}
+    .hero{display:grid;grid-template-columns:1.3fr .7fr;gap:18px;align-items:stretch;margin-top:10px}
+    .card{background:rgba(17,24,39,.75);border:1px solid rgba(38,50,68,.8);border-radius:18px;padding:18px;backdrop-filter: blur(6px)}
+    h1{margin:0 0 8px;font-size:42px;line-height:1.05}
+    p{margin:0 0 10px;color:var(--muted);font-size:16px;line-height:1.5}
+    .badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+    .badge{padding:8px 10px;border:1px solid rgba(38,50,68,.9);border-radius:999px;color:#d1d5db;font-size:13px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:14px}
+    .tile{padding:14px;border-radius:16px;border:1px solid rgba(38,50,68,.8);background:rgba(17,24,39,.45)}
+    .tile b{display:block;margin-bottom:6px}
+    .price{display:flex;flex-direction:column;justify-content:space-between}
+    .kpi{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:12px}
+    .kpi .tile{padding:12px}
+    .kpi small{color:var(--muted)}
+    .section{margin-top:18px}
+    .list{margin:10px 0 0;padding-left:18px;color:#cbd5e1}
+    .list li{margin:6px 0}
+    .form{display:grid;gap:10px;margin-top:10px}
+    input, textarea{width:100%;padding:12px 12px;border-radius:12px;border:1px solid rgba(38,50,68,.9);background:#0b1220;color:var(--text)}
+    textarea{min-height:110px;resize:vertical}
+    .foot{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;margin:18px 0 6px;color:var(--muted);font-size:13px}
+    @media (max-width:860px){ .hero{grid-template-columns:1fr} h1{font-size:34px} .grid{grid-template-columns:1fr} }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="logo">? ИИ-Услуги</div>
+      <div style="display:flex;gap:10px;align-items:center">
+        <a class="btn ghost" href="#services">Услуги</a>
+        <a class="btn" href="#contact">Заказать</a>
+      </div>
+    </div>
+
+    <div class="hero">
+      <div class="card">
+        <h1>Сделаю тексты и упаковку с ИИ<br/>за 24 часа</h1>
+        <p>
+          Карточки товаров • Резюме • Посты для бизнеса • Презентации • Коммерческие предложения.
+          Быстро, аккуратно, с правками.
+        </p>
+        <div class="badges">
+          <div class="badge">? Срок: 1–2 дня</div>
+          <div class="badge">? 1–2 правки бесплатно</div>
+          <div class="badge">? Под ваш стиль</div>
+          <div class="badge">? Чёткая цена</div>
+        </div>
+
+        <div class="section">
+          <div class="grid" id="services">
+            <div class="tile">
+              <b>Карточки товаров</b>
+              <div>Название + описание + ключевые слова</div>
+              <div style="margin-top:8px;color:#a7f3d0;font-weight:700">от 500 ?</div>
+            </div>
+            <div class="tile">
+              <b>Резюме и письма</b>
+              <div>Резюме + сопроводительное под вакансию</div>
+              <div style="margin-top:8px;color:#a7f3d0;font-weight:700">от 1200 ?</div>
+            </div>
+            <div class="tile">
+              <b>Контент для соцсетей</b>
+              <div>20 постов + контент-план</div>
+              <div style="margin-top:8px;color:#a7f3d0;font-weight:700">от 5000 ?</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
+          <b>Как работаем</b>
+          <ol class="list">
+            <li>Вы пишете задачу и пример (если есть).</li>
+            <li>Я делаю черновик и согласую стиль.</li>
+            <li>Финальная версия + правки.</li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="card price">
+        <div>
+          <b style="font-size:18px">Быстрый заказ</b>
+          <p style="margin-top:6px">Оставьте контакт и задачу — отвечу и назову цену.</p>
+
+          <!-- Кнопки контактов: поменяй на свои -->
+          <div class="kpi">
+            <div class="tile">
+              <small>Telegram</small>
+              <div style="font-weight:800;margin-top:4px">@YOUR_TG</div>
+            </div>
+            <div class="tile">
+              <small>Телефон</small>
+              <div style="font-weight:800;margin-top:4px">+7 (___) ___-__-__</div>
+            </div>
+          </div>
+
+          <div class="section" id="contact">
+            <b>Форма заявки</b>
+            <form class="form" onsubmit="return sendLead(event)">
+              <input id="name" placeholder="Ваше имя" required />
+              <input id="contactInput" placeholder="Telegram / телефон" required />
+              <textarea id="task" placeholder="Что нужно сделать? (пример: 10 карточек товаров для Wildberries)" required></textarea>
+              <button class="btn" type="submit">Отправить</button>
+              <div id="status" style="color:var(--muted);font-size:13px"></div>
+            </form>
+            <p style="margin-top:10px;font-size:13px">
+              *Форма сейчас отправляет заявку вам в Telegram через ссылку (без сервера).
+            </p>
+          </div>
+        </div>
+
+        <div class="foot">
+          <div>© <span id="y"></span> ИИ-Услуги</div>
+          <div><a href="#services">Услуги</a> · <a href="#contact">Контакты</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+
+    // ВСТАВЬ СВОЙ TELEGRAM USERNAME (без @)
+    const TG_USERNAME = "YOUR_TG_USERNAME";
+
+    function sendLead(e){
+      e.preventDefault();
+      const name = document.getElementById("name").value.trim();
+      const contact = document.getElementById("contactInput").value.trim();
+      const task = document.getElementById("task").value.trim();
+
+      const text =
+`Новая заявка с сайта:
+Имя: ${name}
+Контакт: ${contact}
+Задача: ${task}`;
+
+      const url = `https://t.me/${TG_USERNAME}?text=` + encodeURIComponent(text);
+      document.getElementById("status").textContent = "Открываю Telegram для отправки…";
+      window.open(url, "_blank");
+      return false;
+    }
+  </script>
+</body>
+</html>
